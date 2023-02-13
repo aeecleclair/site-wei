@@ -1,0 +1,55 @@
+baseURL = 'https://cohub-hugo.netlify.app'
+languageCode = 'en-us'
+title = 'Wei'
+paginate = 6
+
+
+[Menu]
+  # Main Menu
+  [[menu.Main]]
+  name = "Accueil"
+  url= "#"
+  weight = 1
+  [[menu.Main]]
+  name = "WEI 2023"
+  url= "/wei"
+  weight = 1
+  [[menu.Main]]
+  name = "L'équipe"
+  url= "/team/"
+  weight = 3
+  [[menu.Main]]
+  name = "Partenaires"
+  url= "/partners/"
+  weight = 4
+  [[menu.Main]]
+  name = "Galerie"
+  url= "/gallery/"
+  weight = 5
+  [[menu.Main]]
+  name = "Semaine Taupin"
+  url= "/taupin/"
+  weight = 6
+
+  # Sitemap Menu
+  [[menu.sitemap]]
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 1
+  [[menu.sitemap]]
+  name = "Terms"
+  url = "/terms/"
+  weight = 2
+
+[params]
+  aboutPageURL = "blog"
+  contactLink = "contact"
+  copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">Eclair</a>"
+  logo = "image/logo.png"
+  footerlogo = "image/logo.png"
+  footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
+
+[module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"

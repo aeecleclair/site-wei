@@ -1,6 +1,0 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke
-[submodule "themes/cohub"]
-	path = themes/cohub
-	url = https://github.com/StaticMania/hugo-cohub
