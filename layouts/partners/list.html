@@ -1,6 +1,6 @@
 {{ define "main"}}
 
-<div class="grid w-screen place-content-center py-6">
+<div class="grid place-content-center py-6">
   <h1
     class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
   >
@@ -8,11 +8,11 @@
   </h1>
 </div>
 
-<div class="flex flex-wrap px-10">
-  {{ range .Data.Pages }}
+<div class="flex flex-wrap px-8 place-content-center">
+  {{ range $index, $element := .Data.Pages }}
 
   <div
-    class="m-10 h-[65vh] max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800"
+    class="m-8 h-[65vh] max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800 js-show-on-scroll" style="--order: {{$index}}"
   >
     <a href="#">
       <img class="rounded-t-lg" src="{{ .Params.image | absURL }}" alt="" />
@@ -26,7 +26,7 @@
         </h5>
       </a>
 
-      <div class="min-h-[30vh] flex flex-auto flex-col justify-between">
+      <div class="min-h-[28vh] flex flex-auto flex-col justify-between">
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
           {{.Content }}
         </p>

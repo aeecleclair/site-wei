@@ -5,4 +5,6 @@
     <link rel="stylesheet" href="{{ $style.Permalink }}"> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    {{ $script := resources.Get "app.js" }}  
+    <script defer src="{{ $script.Permalink }}"></script>
 </head>

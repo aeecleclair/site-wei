@@ -607,8 +607,8 @@ video {
   grid-row: auto;
 }
 
-.m-10 {
-  margin: 2.5rem;
+.m-8 {
+  margin: 2rem;
 }
 
 .mx-auto {
@@ -705,10 +705,6 @@ video {
   height: 2rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .h-\[10vh\] {
   height: 10vh;
 }
@@ -733,28 +729,16 @@ video {
   height: 100%;
 }
 
-.h-\[80vh\] {
-  height: 80vh;
-}
-
-.h-\[50vh\] {
-  height: 50vh;
-}
-
-.h-\[30vh\] {
-  height: 30vh;
-}
-
-.h-\[60vh\] {
-  height: 60vh;
-}
-
 .min-h-\[30vh\] {
   min-height: 30vh;
 }
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-\[28vh\] {
+  min-height: 28vh;
 }
 
 .w-3 {
@@ -822,7 +806,7 @@ video {
 }
 
 .animate-marquee {
-  animation: marquee 50s linear infinite;
+  animation: marquee 40s linear infinite;
 }
 
 @keyframes marquee2 {
@@ -836,7 +820,7 @@ video {
 }
 
 .animate-marquee2 {
-  animation: marquee2 50s linear infinite;
+  animation: marquee2 40s linear infinite;
 }
 
 .cursor-pointer {
@@ -969,11 +953,6 @@ video {
   padding-right: 0px;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -982,6 +961,11 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-12 {
@@ -1073,6 +1057,11 @@ video {
   letter-spacing: -0.025em;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -1111,6 +1100,21 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.js-show-on-scroll {
+  opacity: 0;
+  transform: translateX(-100px);
+  filter: blur(10px);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
+    filter 0.8s ease-in-out;
+  transition-delay: calc(150ms * var(--order));
+}
+
+.js-show-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
 }
 
 .hover\:bg-blue-800:hover {
@@ -1249,14 +1253,6 @@ video {
 }
 
 @media not all and (min-width: 768px) {
-  .max-md\:aspect-video {
-    aspect-ratio: 16 / 9;
-  }
-
-  .max-md\:h-\[80vh\] {
-    height: 80vh;
-  }
-
   .max-md\:w-full {
     width: 100%;
   }
@@ -1330,20 +1326,12 @@ video {
     display: none;
   }
 
-  .md\:aspect-video {
-    aspect-ratio: 16 / 9;
-  }
-
-  .md\:h-screen {
-    height: 100vh;
-  }
-
   .md\:h-\[80vh\] {
     height: 80vh;
   }
 
-  .md\:h-full {
-    height: 100%;
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:w-auto {
