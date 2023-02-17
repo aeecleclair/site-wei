@@ -12,23 +12,23 @@ paginate = 6
   weight = 1
   [[menu.Main]]
   name = "WEI 2023"
-  url= "/wei"
+  url= "wei"
   weight = 1
   [[menu.Main]]
   name = "L'équipe"
-  url= "/team/"
+  url= "team"
   weight = 3
   [[menu.Main]]
   name = "Partenaires"
-  url= "/partners/"
+  url= "partners"
   weight = 4
   [[menu.Main]]
   name = "Galerie"
-  url= "/gallery/"
+  url= "gallery"
   weight = 5
   [[menu.Main]]
   name = "Semaine Taupin"
-  url= "/taupin/"
+  url= "taupin"
   weight = 6
 
 

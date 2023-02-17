@@ -16,11 +16,11 @@
       {{ range .partnersImage }}
       <div class="row-auto w-96">
         <a
-          href="{{ .image | absURL }}"
-          data-source="{{ .image | absURL }}"
+          href="{{ .image | relURL }}"
+          data-source="{{ .image | relURL }}"
           title="Exibhition 01"
         >
-          <img src="{{ .image | absURL }}" alt="gallery-images" />
+          <img src="{{ .image | relURL }}" alt="gallery-images" />
         </a>
       </div>
       {{end }}
@@ -32,11 +32,11 @@
       {{ range .partnersImage }}
       <div class="row-auto w-96">
         <a
-          href="{{ .image | absURL }}"
-          data-source="{{ .image | absURL }}"
+          href="{{ .image | relURL }}"
+          data-source="{{ .image | relURL }}"
           title="Exibhition 01"
         >
-          <img src="{{ .image | absURL }}" alt="gallery-images" />
+          <img src="{{ .image | relURL }}" alt="gallery-images" />
         </a>
       </div>
       {{end }}

@@ -10,20 +10,22 @@
 <div class="flex flex-wrap place-content-center px-8">
   {{ range $index, $element := .Data.Pages }}
   <section
-    class="body-font js-show-on-scroll text-gray-600 mt-8 mb-12"
+    class="body-font js-show-on-scroll mt-8 mb-12 text-gray-600"
     style="--order: {{$index}}"
   >
     <div
       class="container mx-auto flex flex-col items-center px-5 py-5 md:flex-row"
     >
-      <h1 class="mb-6 text-2xl font-normal text-gray-500  dark:text-gray-400">{{ .Params.name}}</h1>
+      <h1 class="mb-6 text-2xl font-normal text-gray-500 dark:text-gray-400">
+        {{ .Params.name}}
+      </h1>
     </div>
     <img
       class="rounded object-cover object-center"
       alt="hero"
-      src="{{ .Params.image | absURL }}"
+      src="{{ .Params.image | relURL }}"
     />
   </section>
   {{ end }}
 </div>
- {{ end }}
+{{ end }}

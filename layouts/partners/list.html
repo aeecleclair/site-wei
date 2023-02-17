@@ -8,14 +8,15 @@
   </h1>
 </div>
 
-<div class="flex flex-wrap px-8 place-content-center">
+<div class="flex flex-wrap place-content-center px-8">
   {{ range $index, $element := .Data.Pages }}
-
+    {{ .Params.image | absURL }}
   <div
-    class="m-8 h-[65vh] max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800 js-show-on-scroll" style="--order: {{$index}}"
+    class="js-show-on-scroll m-8 h-[65vh] max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800"
+    style="--order: {{$index}}"
   >
     <a href="#">
-      <img class="rounded-t-lg" src="{{ .Params.image | absURL }}" alt="" />
+      <img class="rounded-t-lg" src="{{ .Params.image | relURL }}" alt="" />
     </a>
     <div class="p-5">
       <a href="#">
@@ -26,7 +27,7 @@
         </h5>
       </a>
 
-      <div class="min-h-[28vh] flex flex-auto flex-col justify-between">
+      <div class="flex min-h-[28vh] flex-auto flex-col justify-between">
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
           {{.Content }}
         </p>

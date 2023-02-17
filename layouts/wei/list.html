@@ -32,7 +32,7 @@
         <img
           class="rounded object-cover object-center"
           alt="hero"
-          src="{{ .Params.image | absURL }}"
+          src="{{ .Params.image | relURL }}"
         />
       </div>
       {{ else }}
@@ -40,7 +40,7 @@
         <img
           class="rounded object-cover object-center"
           alt="hero"
-          src="{{ .Params.image | absURL }}"
+          src="{{ .Params.image | relURL }}"
         />
       </div>
       <div
@@ -52,7 +52,6 @@
           {{ .Params.Name }}
         </h1>
         <p class="mb-8 leading-relaxed">{{ .Params.description }}</p>
-
       </div>
       {{ end}}
     </div>
@@ -64,7 +63,7 @@
     style="--order: {{$index}}"
   >
     <a href="#">
-      <img class="rounded-t-lg" src="{{ .Params.image | absURL }}" alt="" />
+      <img class="rounded-t-lg" src="{{ .Params.image | relURL }}" alt="" />
     </a>
     <div class="p-5">
       <a href="#">
