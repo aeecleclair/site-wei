@@ -5,8 +5,8 @@ subtitle: >
         We are the world’s largest provider of flexible workspace solutions,
         with customers including some of the most successful entrepreneurs
 galleryImage: 
- - image: "/site-wei/image/home_gallery/gallery01.jpg"
- - image: "/site-wei/image/home_gallery/gallery02.jpg"
- - image: "/site-wei/image/home_gallery/gallery03.jpg"
- - image: "/site-wei/image/home_gallery/gallery04.jpg"
+ - image: "image/home_gallery/gallery01.jpg"
+ - image: "image/home_gallery/gallery02.jpg"
+ - image: "image/home_gallery/gallery03.jpg"
+ - image: "image/home_gallery/gallery04.jpg"
 ---

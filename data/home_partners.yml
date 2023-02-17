@@ -5,8 +5,8 @@ subtitle: >
         We are the world’s largest provider of flexible workspace solutions,
         with customers including some of the most successful entrepreneurs
 partnersImage: 
- - image: "/site-wei/image/home_partners/partners01.jpg"
- - image: "/site-wei/image/home_partners/partners02.jpg"
- - image: "/site-wei/image/home_partners/partners03.jpg"
- - image: "/site-wei/image/home_partners/partners04.jpg"
+ - image: "image/home_partners/partners01.jpg"
+ - image: "image/home_partners/partners02.jpg"
+ - image: "image/home_partners/partners03.jpg"
+ - image: "image/home_partners/partners04.jpg"
 ---
