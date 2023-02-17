@@ -1,4 +1,4 @@
-baseURL = 'https://cohub-hugo.netlify.app'
+baseURL = 'https://github.com/aeecleclair/site-wei/'
 languageCode = 'en-us'
 title = 'Wei'
 paginate = 6
@@ -35,7 +35,7 @@ paginate = 6
 [params]
   aboutPageURL = "blog"
   contactLink = "contact"
-  copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">Eclair</a>"
+  copyright = "© {year} <a target=\"_blank\">Eclair</a>"
   logo = "image/logo.png"
   footerlogo = "image/logo.png"
   footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
