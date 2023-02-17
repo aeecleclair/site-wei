@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.js-show-on-scroll {
+  opacity: 0;
+  transform: translateX(-100px);
+  filter: blur(10px);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
+    filter 0.8s ease-in-out;
+    transition-delay: calc(150ms * var(--order));
+}
+
+.js-show-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
