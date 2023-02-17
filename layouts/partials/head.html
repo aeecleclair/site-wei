@@ -20,5 +20,6 @@
     href="{{ $styles.Permalink }}"
     integrity="{{ $styles.Data.Integrity }}"
   />
-  {{ end }}
+  {{ end }} {{ $styles := resources.Get "main.css" }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" />
 </head>

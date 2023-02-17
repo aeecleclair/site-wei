@@ -2,11 +2,11 @@
 {{ if .enable }}
 
 <div class="max-md:p-8 p-16 h-[110vh] grid place-content-center">
-    <div class="flex flex-col md:h-[80vh] items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-8xl  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <div class="flex flex-col md:h-[80vh] items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-8xl  hover:bg-gray-100 ">
         <iframe src="{{ .youtube }}" frameborder="0" class="object-cover aspect-video max-md:w-full rounded-t-lg h-full md:h-screen md:rounded-none md:rounded-l-lg md:mr-10" alt=""></iframe>
         <div class="flex flex-col justify-between p-4 leading-normal  md:mr-10 text-justify">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ .title | safeHTML }}</h5>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ .description }}</p>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">{{ .title | safeHTML }}</h5>
+            <p class="mb-3 font-normal text-gray-700 ">{{ .description }}</p>
         </div>
     </div>
 </div>
