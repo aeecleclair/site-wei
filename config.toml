@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/aeecleclair/site-wei'
+baseURL = 'https://aeecleclair.github.io/site-wei'
 languageCode = 'en-us'
 title = 'Wei'
 paginate = 6
