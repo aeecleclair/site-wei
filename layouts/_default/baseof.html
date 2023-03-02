@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-{{- partial "head.html" . -}}
-<body class="min-h-screen">
+  {{- partial "head.html" . -}}
+  <body class="min-h-screen">
     {{- partial "header.html" . -}}
-    <div id="content max-w-full">
-        {{- block "main" . }}{{- end }}
-    </div>
+    <div id="content max-w-full">{{- block "main" . }}{{- end }}</div>
     {{- partial "footer.html" . -}}
-</body>
+  </body>
 </html>

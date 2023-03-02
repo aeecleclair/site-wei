@@ -2,7 +2,7 @@
 
 <div class="grid place-content-center py-6">
   <h1
-    class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900  md:text-5xl lg:text-6xl"
+    class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
   >
     {{ .Title }}
   </h1>
@@ -10,10 +10,10 @@
 
 <div class="flex flex-wrap place-content-center px-8 pt-7">
   {{ range $index, $element := .Data.Pages }}
-  <div class="rounded-md px-12 js-show-on-scroll" style="--order: {{$index}}">
-    <div class="max-w-[265px] aspect-square">
+  <div class="js-show-on-scroll rounded-md px-12" style="--order: {{$index}}">
+    <div class="aspect-square max-w-[265px]">
       <a href="#" class="">
-        <img class="rounded-2xl h-[265px]" src="{{ .Params.image }}" alt="" />
+        <img class="h-[265px] rounded-2xl" src="{{ .Params.image }}" alt="" />
         <div class="relative top-[-72px]">
           <svg
             width="100%"
@@ -172,18 +172,14 @@
       </a>
       <div class="relative top-[-90px] p-5 pt-8">
         <a href="#">
-          <h5
-            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "
-          >
-           {{ .Params.name}}
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+            {{ .Params.name}}
           </h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 ">
-          {{ .Params.title}}
-        </p>
+        <p class="mb-3 font-normal text-gray-700">{{ .Params.title}}</p>
         <a
           href="mailto:{{ .Params.mail }}"
-          class="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 "
+          class="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300"
         >
           Contacter
           <svg

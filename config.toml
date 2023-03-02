@@ -13,7 +13,7 @@ paginate = 6
   [[menu.Main]]
   name = "WEI 2023"
   url= "wei"
-  weight = 1
+  weight = 2
   [[menu.Main]]
   name = "L'équipe"
   url= "team"
