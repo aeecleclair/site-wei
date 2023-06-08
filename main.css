@@ -16,3 +16,14 @@
   transform: translateX(0);
   filter: blur(0);
 }
+
+.h-slide {
+  height: 92vh;
+}
+
+@media (max-width: 1300px) {
+  .h-slide {
+    height: 60vh;
+  }
+}
+
