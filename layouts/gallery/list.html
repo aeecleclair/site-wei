@@ -11,7 +11,7 @@
 <div class="flex flex-wrap place-content-center px-8">
   {{with .Site.Data.home_gallery}}
   <div class="relative h-[92vh]">
-    <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+    <div class="grid grid-cols-2 gap-4 md:grid-cols-4 hes-gallery" data-wrap="true" data-img-count="true">
       {{ range .galleryImage }}
         <img
           src="{{ .image | relURL }}"
@@ -23,4 +23,17 @@
   </div>
   {{ end }}
 </div>
+<script>
+
+  HesGallery.setOptions({
+      disableScrolling: false,
+      hostedStyles: false,
+      animations: true,
+      minResolution: 1000,
+
+      showImageCount: true,
+      wrapAround: true
+  });
+
+</script>
 {{ end }}

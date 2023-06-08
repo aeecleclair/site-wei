@@ -8,7 +8,9 @@
     rel="stylesheet"
   />
   {{ $script := resources.Get "app.js" }}
+  {{ $script_gallery := resources.Get "hes-gallery.js" }}
   <script defer src="{{ $script.Permalink }}"></script>
+  <script defer src="{{ $script_gallery.Permalink }}"></script>
   <link rel="icon" type="image/png" href="{{ .Site.Params.logo | relURL}}" />
 
   {{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config"
@@ -21,6 +23,9 @@
     href="{{ $styles.Permalink }}"
     integrity="{{ $styles.Data.Integrity }}"
   />
-  {{ end }} {{ $styles := resources.Get "main.css" }}
+  {{ end }}
+  {{ $styles_gallery := resources.Get "hes-gallery.css" }}
+  {{ $styles := resources.Get "main.css" }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" />
+  <link rel="stylesheet" href="{{ $styles_gallery.Permalink }}" />
 </head>
