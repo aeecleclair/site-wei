@@ -10,7 +10,7 @@
 
 <div class="flex flex-wrap place-content-center px-8 pt-7">
   {{ range $index, $element := .Data.Pages }}
-  <div class="js-show-on-scroll rounded-md px-12" style="--order: {{$index}}">
+  <div class="js-show-on-scroll rounded-md px-12 pt_adjust" style="--order: {{$index}}">
     <div class="aspect-square max-w-[265px]">
       <a href="#" class="">
         <img class="rounded-2xl" src="{{ .Params.image }}" alt="" />
