@@ -1,11 +1,11 @@
 {{with .Site.Data.home_gallery}} {{ if .enable }}
 <div id="default-carousel" class="relative" data-carousel="static">
-  <div class="relative h-[92vh] overflow-hidden">
+  <div class="relative h-slide overflow-hidden">
     {{ range .galleryImage }}
     <div class="hidden duration-700 ease-in-out" data-carousel-item>
       <img
         src="{{ .image | relURL }}"
-        class="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2 object-cover"
+        class="absolute h-slide top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2 object-cover"
         alt="..."
       />
     </div>
