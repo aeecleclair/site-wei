@@ -12,3 +12,10 @@ const targets = document.querySelectorAll(".js-show-on-scroll");
 targets.forEach(function (target) {
   observer.observe(target);
 });
+
+nextButton = document.querySelector("#next");
+
+setInterval(() => {
+  if (nextButton == null) return;
+  nextButton.click();
+}, 2500);
