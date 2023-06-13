@@ -27,6 +27,11 @@
   }
 }
 
+
 .pt_adjust {
   padding-bottom: 20rem;
+}
+
+.resizable-text {
+  font-size: min(2.65vw, 0.85rem);
 }
