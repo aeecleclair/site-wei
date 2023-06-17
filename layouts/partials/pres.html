@@ -12,7 +12,7 @@
     <div class="container grid g gap-6 grid-cols-1 lg:grid-cols-2">
       
       <div class="flex items-center justify-center">
-          <p class="mb-3 text-lg font-light tracking-normal text-gray-700 p6">{{ .description }}</p>
+          <p class="mb-3 text-lg font-light tracking-normal text-gray-700 p6">{{ .description | markdownify }}</p>
       </div>
       <div>
         <iframe
