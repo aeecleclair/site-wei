@@ -1,7 +1,7 @@
 baseURL = 'https://wei.myecl.fr/'
 languageCode = 'en-us'
 title = 'Wei'
-paginate = 4
+paginate = 5
 
 
 [Menu]
@@ -23,9 +23,13 @@ paginate = 4
   url= "team"
   weight = 4
   [[menu.Main]]
+  name = "Plan du Campus"
+  url= "plan"
+  weight = 5
+  [[menu.Main]]
   name = "Galerie"
   url= "gallery"
-  weight = 5
+  weight = 6
 
 [params]
   contactLink = "contact"
