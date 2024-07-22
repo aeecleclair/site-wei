@@ -1,6 +1,6 @@
 ---
-name: "Paul Hoareau"
+name: "Sara Delplanque "
 title: "Secrétaire Général"
-mail: "paul.hoareau@ecl22.ec-lyon.fr"
-image: "/image/team/Luga.webp"
+mail: "sara.delplanque@etu.ec-lyon.fr"
+image: "/image/team/Slice.webp"
 ---

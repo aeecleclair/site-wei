@@ -1,6 +1,6 @@
 ---
-name: "Baptiste Galand"
+name: "Laurie Marques"
 title: "VP Communication"
-mail: "baptiste.galand@ecl22.ec-lyon.fr"
-image: "/image/team/Blue.webp"
+mail: "laurie.marques@etu.ec-lyon.fr"
+image: "/image/team/Vegas.webp"
 ---

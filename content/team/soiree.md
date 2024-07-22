@@ -1,6 +1,6 @@
 ---
-name: "Hélène Rabain"
+name: "Célia Dagnino"
 title: "VP Soirée"
-mail: "helene.rabain@ecl22.ec-lyon.fr"
-image: "/image/team/Kora.webp"
+mail: "celia.dagnino@etu.ec-lyon.fr"
+image: "/image/team/Tela.webp"
 ---

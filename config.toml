@@ -1,7 +1,7 @@
 baseURL = 'https://wei.myecl.fr/'
 languageCode = 'en-us'
 title = 'Wei'
-paginate = 6
+paginate = 4
 
 
 [Menu]
@@ -11,7 +11,7 @@ paginate = 6
   url= "#"
   weight = 1
   [[menu.Main]]
-  name = "WEI 2023"
+  name = "WEI 2024"
   url= "wei"
   weight = 2
   [[menu.Main]]
@@ -23,17 +23,9 @@ paginate = 6
   url= "team"
   weight = 4
   [[menu.Main]]
-  name = "Partenaires"
-  url= "partners"
-  weight = 5
-  [[menu.Main]]
   name = "Galerie"
   url= "gallery"
-  weight = 6
-  [[menu.Main]]
-  name = "Semaine Taupin"
-  url= "taupin"
-  weight = 7
+  weight = 5
 
 [params]
   contactLink = "contact"

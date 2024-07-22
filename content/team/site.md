@@ -1,6 +1,6 @@
 ---
-name: "Alexandre Anjolras"
+name: "Maelle Bachelot "
 title: "VP Site"
-mail: "alexandre.anjolras@ecl22.ec-lyon.fr"
-image: "/image/team/Patso.webp"
+mail: "maelle.bachelot@etu.ec-lyon.fr"
+image: "/image/team/kuza.webp"
 ---

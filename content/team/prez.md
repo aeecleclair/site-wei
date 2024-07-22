@@ -1,6 +1,6 @@
 ---
-name: "Léa Serval"
-title: "Présidente"
-mail: "lea.serval@ecl22.ec-lyon.fr"
-image: "/image/team/DelRe.webp"
+name: "Wandrill Devisme"
+title: "Président"
+mail: "wandrille.devisme@etu.ec-lyon.fr"
+image: "/image/team/Tsuki.webp"
 ---

@@ -1,6 +1,6 @@
 ---
-name: "Lucie Drapier"
-title: "VP Logistique / Site"
-mail: "lucie.drapier@ecl22.ec-lyon.fr"
-image: "/image/team/Nea.webp"
+name: "Mathilde Le Dizes"
+title: "VP Logistique"
+mail: "mathilde.le-dizes@etu.ec-lyon.fr"
+image: "/image/team/Vayah.webp"
 ---
