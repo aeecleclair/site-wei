@@ -1,7 +1,7 @@
 baseURL = 'https://wei.myecl.fr/'
 languageCode = 'en-us'
 title = 'Wei'
-paginate = 5
+paginate = 6
 
 
 [Menu]
