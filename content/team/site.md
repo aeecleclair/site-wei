@@ -2,5 +2,5 @@
 name: "Maelle Bachelot "
 title: "VP Site"
 mail: "maelle.bachelot@etu.ec-lyon.fr"
-image: "/image/team/kuza.webp"
+image: "/image/team/Kuza.webp"
 ---
