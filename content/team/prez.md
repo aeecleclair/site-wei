@@ -1,5 +1,5 @@
 ---
-name: "Wandrill Devisme"
+name: "Wandrille Devisme"
 title: "Président"
 mail: "wandrille.devisme@etu.ec-lyon.fr"
 image: "/image/team/Tsuki.webp"

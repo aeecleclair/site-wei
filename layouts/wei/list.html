@@ -15,8 +15,9 @@
   >
   {{ .dates | safeHTML }}
 </h1>
-
-<h1>{{ .description | markdownify }}</h1>
+<div>
+<h1>{{ .list_title | markdownify }}</h1><br>
+<h1>{{ .list | markdownify }}</h1></div>
 </div>
 
 {{end}} {{end}} {{ end }}

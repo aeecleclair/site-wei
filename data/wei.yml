@@ -1,7 +1,19 @@
----
 title: "WEI"
 dates: "Les 13, 14 et 15 septembre 2024"
 enable: true
-description: "Liste affaires a emporter :\n - [x] affaires salissables\n- [x]  affaires de sport \n- [x]  maillot de bain \n - [x]  chéquier (ou chèque en blanc de vos parents)\n- [x]  carte d'identité\n- [x]  ecocups\n- [x] duvet"
----
+list_title : "Liste des affaires à emporter :"
+list: |
 
+  -- affaires salissables
+
+  -- affaires de sport
+
+  -- slips de bain
+
+  -- chéquier (ou chèque en blanc de vos parents)
+
+  -- carte d'identité
+
+  -- ecocups
+
+  -- duvet
