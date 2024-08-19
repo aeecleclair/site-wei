@@ -29,7 +29,6 @@ paginate = 6
   [[menu.Main]]
   name = "Galerie"
   url= "gallery"
-  weight = 6
 
 [params]
   contactLink = "contact"
