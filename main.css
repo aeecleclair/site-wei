@@ -21,12 +21,33 @@
   height: 92vh;
 }
 
+.h-slide-wei {
+  height: 75vh;
+}
+
+@media (max-width: 600px) {
+  .h-slide-wei {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .h-slide-wei {
+    height: 60vh;
+  }
+}
+
 @media (max-width: 1300px) {
   .h-slide {
     height: 60vh;
   }
 }
 
+@media (max-width: 1920px) {
+  .h-slide-wei {
+    height: 122vh;
+  }
+}
 
 .pt_adjust {
   padding-bottom: 20rem;

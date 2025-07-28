@@ -13,7 +13,7 @@ targets.forEach(function (target) {
   observer.observe(target);
 });
 
-nextButton = document.querySelector("#next");
+const nextButton = document.querySelector("#next");
 
 setInterval(() => {
   if (nextButton == null) return;
