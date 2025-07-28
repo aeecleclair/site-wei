@@ -1,6 +1,6 @@
 ---
-name: "Maelle Bachelot "
+name: "Zoé 'Fara' Roffet"
 title: "VP Site"
-mail: "maelle.bachelot@etu.ec-lyon.fr"
-image: "/image/team/Kuza.webp"
+mail: "zoe.roffet@etu.ec-lyon.fr"
+image: "/image/wei_2025/team/fara.webp"
 ---

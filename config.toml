@@ -1,41 +1,43 @@
 baseURL = 'https://wei.myecl.fr/'
 languageCode = 'en-us'
 title = 'Wei'
-paginate = 6
 
+[pagination]
+pagerSize = 6
 
-[Menu]
+[menu]
   # Main Menu
-  [[menu.Main]]
+  [[menu.main]]
   name = "Accueil"
   url= "#"
   weight = 1
-  [[menu.Main]]
-  name = "WEI 2024"
-  url= "wei"
-  weight = 2
-  [[menu.Main]]
+  [[menu.main]]
   name = "Quinzaine d'intégration"
   url="qi"
+  weight = 2
+  [[menu.main]]
+  name = "WEI 2025"
+  url= "wei"
   weight = 3
-  [[menu.Main]]
-  name = "L'équipe"
+  [[menu.main]]
+  name = "Notre équipe"
   url= "team"
   weight = 4
-  [[menu.Main]]
+  [[menu.main]]
   name = "Plan du Campus"
   url= "plan"
   weight = 5
-  [[menu.Main]]
+  [[menu.main]]
   name = "Galerie"
   url= "gallery"
+  weight = 6
 
 [params]
   contactLink = "contact"
   aboutPageURL = "blog"
   copyright = "© {year} <a target=\"_blank\">Eclair</a>"
-  logo = "image/logo.png"
-  footerlogo = "image/logo.png"
+  logo = "image/wei_2025/logo_wei_HD_fond_bleu.png"
+  logosansfond = "image/wei_2025/logo_wei_HD_sansfond.png"
   footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
 
 [module]

@@ -1,6 +1,6 @@
 ---
-name: "Aymeric Le Tiec-Gimbert"
+name: "Robin 'Many' Leblanc"
 title: "Trésorier"
-mail: "aymeric.le-tiec@etu.ec-lyon.fr"
-image: "/image/team/Spritz.webp"
+mail: "robin.leblanc@etu.ec-lyon.fr"
+image: "/image/wei_2025/team/many.webp"
 ---

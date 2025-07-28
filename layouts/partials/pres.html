@@ -1,30 +1,32 @@
-{{with .Site.Data.home_pres}} {{ if .enable }}
+{{ with .Site.Data.home_pres }} 
+  {{ if .enable }}
 
-  <!-- Contenu du div -->
-
-
-<div class="place-content-center p-16  mx-auto">
-  <div
-    class="lg:max-w-8xl items-center text-center ju rounded-lg  bg-white ">
+<div class="p-16 mx-auto max-w-8xl">
+  <div class="rounded-lg bg-white text-center">
     <h1 class="mb-2 text-4xl font-thin p-8 mb-4 tracking-normal text-gray-900">
       {{ .title | safeHTML }}
-      </h1>
-    <div class="container grid g gap-6 grid-cols-1 lg:grid-cols-2">
-      
-      <div class="flex items-center justify-center">
-          <p class="mb-3 text-lg font-light tracking-normal text-gray-700 p6">{{ .description | markdownify }}</p>
+    </h1>
+
+    <div class="container grid grid-cols-1 lg:grid-cols-2 gap-6 justify-center">
+      <div class="flex items-center justify-center text-left">
+        <div class="prose max-w-none text-gray-700" style="text-align: justify;">
+          {{ .description | markdownify }}
+        </div>
       </div>
-      <div>
+
+      <div class="flex items-center justify-center">
         <iframe
           src="{{ .youtube }}"
           frameborder="0"
-          class="aspect-video h-full rounded-lg object-cover w-full lg:mr-10 "
+          class="aspect-video rounded-lg object-cover w-full max-w-xl"
           alt=""
         ></iframe>
       </div>
+      
     </div>
   </div>
 </div>
 
+{{ end }} 
+{{ end }}
 
-{{end}} {{end}}

@@ -1,8 +1,8 @@
-<nav class="px-0 py-2 bg-white border-gray-200 shadow-lg sticky">
+<nav class="px-0 py-2 bg-white border-gray-200 shadow-2xl sticky">
   <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="/" class="flex items-center">
-        <img src="{{ .Site.Params.logo | relURL }}" class="h-14 mr-3 sm:h-14" alt="WEI 2024" />
-        <span class="self-center text-xl font-semibold whitespace-nowrap  text-gray-700">El FWEIgo</span>
+        <img src="{{ .Site.Params.logosansfond | relURL }}" class="h-14 mr-3 ml-4 sm:h-14" alt="WEI 2025" />
+        <span class="self-center text-xl font-semibold whitespace-nowrap  text-gray-700">StairWEI to Heaven</span>
     </a>
     <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-dropdown" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
@@ -34,7 +34,7 @@
         {{ $menu := .Site.Menus.main}}
         {{range $index, $element := $menu}}
           <li>
-             <a class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 {{ else }} text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 {{ end }}block py-2 pl-3 pr-4 " href="{{ .URL | absURL }}">{{.Name}}</a>
+             <a class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 {{ else }} text-gray-700 rounded hover:bg-grey-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 {{ end }}block py-2 pl-3 pr-4 " href="{{ .URL | absURL }}">{{.Name}}</a>
           </li>
           {{end}}
       </ul>

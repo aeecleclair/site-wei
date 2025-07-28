@@ -1,6 +1,6 @@
 ---
-name: "Alexandre CLot"
-title: "VP Log/Site"
-mail: "alexandre.clot@etu.ec-lyon.fr"
-image: "/image/team/Gobi.webp"
+name: "Matti 'Scala' Perrault"
+title: "VP Logistique Site"
+mail: "matti.perrault@etu.ec-lyon.fr"
+image: "/image/wei_2025/team/scala.webp"
 ---

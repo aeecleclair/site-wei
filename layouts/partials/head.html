@@ -13,7 +13,7 @@
   <script defer src="{{ $script_gallery.Permalink }}"></script>
   <link rel="icon" type="image/png" href="{{ .Site.Params.logo | relURL}}" />
 
-  {{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config"
+  {{ $styles := resources.Get "css/styles.css" | toCSS | postCSS (dict "config"
   "./assets/css/postcss.config.js") }} {{ if hugo.IsServer }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
   {{ else }} {{ $styles := $styles | minify | fingerprint |

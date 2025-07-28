@@ -1,3 +1,3 @@
 ---
-title: "Quinzaine d'intégration"
+title: "La Quinzaine d'Intégration"
 ---

@@ -1,6 +1,6 @@
 ---
-name: "Célia Dagnino"
-title: "VP Soirée"
-mail: "celia.dagnino@etu.ec-lyon.fr"
-image: "/image/team/Tela.webp"
+name: "Eliott 'Statam' Laurent"
+title: "VP Soirées"
+mail: "eliott.laurent@etu.ec-lyon.fr"
+image: "/image/wei_2025/team/statam.webp"
 ---
