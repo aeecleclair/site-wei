@@ -1,3 +1,3 @@
 ---
-title: Le WEI 2024
+title: Le WEI 2025
 ---

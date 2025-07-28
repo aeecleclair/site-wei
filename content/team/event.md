@@ -1,6 +1,6 @@
 ---
-name: "Minh Toan Brasset"
+name: "Roman 'Pétooh' Pino"
 title: "VP Évents"
-mail: "monh-thoan.brasset@etu.ec-lyon.fr"
-image: "/image/team/Emty.webp"
+mail: "roman.pino@etu.ec-lyon.fr"
+image: "/image/wei_2025/team/petooh.webp"
 ---
