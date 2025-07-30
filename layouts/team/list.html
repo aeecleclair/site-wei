@@ -13,7 +13,13 @@
   <div class="js-show-on-scroll rounded-md px-12" style="--order: {{$index}}">
     <div class=" max-w-[265px]">
       <a href="#" class="">
-        <img class="rounded-2xl" src="{{ .Params.image }}" alt="" height="375" style="width: 265px; height: 375px;"/>
+        <div class="w-[265px] h-[375px] overflow-hidden rounded-2xl mb-2">
+          <img
+            src="{{ .Params.image }}"
+            alt=""
+            class="w-full h-full object-cover"
+          />
+        </div>
         <div class="relative top-[-72px]">
           <svg
             width="100%"
